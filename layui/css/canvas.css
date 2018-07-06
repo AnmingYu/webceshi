@@ -1,0 +1,91 @@
+/*.col-lg-12 img{*/
+
+
+/*vertical-align: bottom*/
+
+
+/*}*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+	margin: 0;
+	padding: 0
+}
+
+
+/*html{color:#000;overflow-y:scoll;overflow:-moz-scrollbars-vertical}*/
+
+body {
+	margin: 0px;
+}
+
+#drawDiv {
+	/*position:relative;*/
+	/*margin:0px auto;*/
+	/*display: inline-block;*/
+	/*top: 80px;*/
+	/*left: 10px;*/
+	/*padding: 0px;*/
+	/*width: 400px;*/
+	/*height: 300px;*/
+}
+
+.first-img {
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 20px;
+	left: 10px;
+	top: 20px;
+}
+
+.col-lg-canvas {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.div {
+	position: absolute;
+	border: 1px dashed red;
+	width: 0px;
+	height: 0px;
+	left: 0px;
+	top: 0px;
+	/*overflow:hidden;*/
+}
+
+.col-lg-whole {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	width: 50%
+}
+
+.pupopMargin{
+	margin : 10px 0px 15px 10px;
+	}

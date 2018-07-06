@@ -1,0 +1,45 @@
+{
+	"contentManagement": [
+		{
+			"title": "模板管理",
+			"icon": "icon-text",
+			"href": "page/news/newsList.html",
+			"spread": false
+		}
+	],
+	
+	"memberCenter": [
+		{
+			"title": "数据管理",
+			"icon": "&#xe612;",
+			"href": "page/user/userList.html",
+			"spread": false
+		}
+	],
+	"Anming": [
+		{
+			"title": "数据集管理",
+			"icon": "&#xe631;",
+			"href": "page/dataSet/dataSetList.html",
+			"spread": false
+		}
+	],
+	"systemeSttings": [
+		{
+			"title": "识别引擎管理",
+			"icon": "&#xe631;",
+			"href": "page/systemSetting/basicParameter.html",
+			"spread": false
+		}
+	],
+	"seraphApi": [
+		{
+			"title": "使用文档",
+			"icon": "icon-mokuai",
+			"href": "page/doc/addressDoc.html",
+			"spread": false
+		}
+	]
+}
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>文章列表--layui后台管理模板 2.0</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../build/css/public.css" media="all" />
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/themes/default/style.min.css" />
+		<link rel="stylesheet" href="../../layui/css/canvas.css">
+	</head>
+
+	<body class="childrenBody">
+
+		<div class="layui-row">
+			<div>
+				<p><i class="layui-icon ">&#xe654;</i>任务页面</p>
+				<hr>
+			</div>
+
+			<div class="layui-col-xs6 ">
+				<div class="col-lg-5 " ondragstart="return false">
+						<div class="col-lg-12 " id="drawDiv"  >
+						<img width="100%"   style="width:100%;height:50%" id="first-img"  src=""  >
+					</div>
+				</div>
+				<!--	参数
+				<!--参数-->
+				<div id="popupsData"  style="display: none;">
+					<form class="layui-form layui-form-pane" action="" id="form1">
+						<!-- input 用来传值的，-->
+						<input type="text" id="popupsByValue" style="display: none;">
+						<input type="text" id="popupValue" style="display: none;">
+
+						<br>
+						<div id="popupContainer">
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+			<div class="layui-col-xs4 layui-col-sm5 layui-col-md4 pupopMargin">
+
+				<form class="layui-form layui-form-pane" action="" id="form2">
+
+					<div class="grid-demo ">
+						 
+						<div class="layui-input-inline">
+							<!-- input 用来传值的，-->
+							<input type="text" id="attribute" style="display: none;">
+							<input type="text" id="gainTaskId" style="display: none;">
+							<!--	<button type="button" class="layui-btn" lay-filter="formDemo" id="frame">画框</button>
+							<button type="button" class="layui-btn" lay-filter="formDemo" id="punctuation">标点</button>-->
+						</div>
+						<br>
+						<p><i class="layui-icon  ">&#xe654;</i>属性</p>
+						<hr>
+						<div id="attributeContainer">
+						</div>
+						
+						 <div>
+						 
+				</form>
+					<br>
+						 	<div class="layui-form-item layui-form-text">
+						 		
+						 		<div class="layui-input-block">
+						 			<textarea id="contextShow" name="" class="layui-textarea"  placeholder="显示内容"></textarea>
+						 		</div>
+						 	</div>
+						 	<button class="layui-btn" id="nextPagetaskAdd" >下一张</button>
+						 	<button class="layui-btn" id="submitDataTaskAdd">确定</button>
+						 </div>
+						 
+					</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="../news/stringTurnUTF8.js"></script>
+		<script type="text/javascript" src="../../layui/layui.js"></script>
+		<script type="text/javascript" src="taskAdd.js"></script>
+		<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+		<script type="text/javascript" src="../../js/jstree.min.js"></script>
+		<script type='text/javascript' src="../../js/xml2json.js"></script>
+		<script type="text/javascript" src="../../js/jstree.min.js"></script>
+		<!--<script type="text/javascript" src="taskAddPopups.js"></script>-->
+
+	</body>
+
+</html>

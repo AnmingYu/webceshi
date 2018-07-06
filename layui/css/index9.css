@@ -1,0 +1,22 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+
+#drawDiv{
+
+}
+/*.div{*/
+/*position:absolute;*/
+/*!*border:1px solid red;*!*/
+/*width:0px;*/
+/*height:0px;*/
+/*left:0px;*/
+/*top:0px;*/
+/*!*overflow:hidden;*!*/
+/*}*/
+.first-img{
+    position:absolute;
+    width:40%;
+    /*margin-left: 80px;*/
+    /*margin-top: 20px;*/
+    left: 800px;
+    top: 400px;
+}
